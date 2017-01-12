@@ -19,6 +19,7 @@ namespace Vsite.CSharp
             {
                 Console.WriteLine("Parametar {0} ima nedozvoljenu vrijednost {1}", e.ParamName, e.ActualValue);
             }
+            Console.ReadKey();
         }
     }
 }
